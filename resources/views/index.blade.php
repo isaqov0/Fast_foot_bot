@@ -49,6 +49,7 @@
                 <li><a href="#">Fast Food</a></li>
                 <li><a href="#">Drinks</a></li>
                 <li><a href="#">Sweets</a></li>
+                <li><a href="#">Palonchi</a></li>
             </ul>
         </div>
         </div>
