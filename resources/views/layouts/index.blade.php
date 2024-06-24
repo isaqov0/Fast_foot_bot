@@ -38,7 +38,7 @@
 
 <body>
 
-<div class="hero_area">
+<div class="hero_area" style=" min-height: 20vh;">
     <div class="bg-dark" style="position: absolute; top: 0; left: 0; width: 100%; height: 100px;">
         {{--        <img src="{{asset('asset/images/hero-bg.jpg')}}" alt="">--}}
     </div>
