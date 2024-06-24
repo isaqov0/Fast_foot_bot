@@ -6,7 +6,7 @@ use App\Http\Requests\StoreCategoryiesRequest;
 use App\Http\Requests\UpdateCategoryiesRequest;
 use App\Models\Categories;
 
-class CategoryiesController extends Controller
+class CategoriesController extends Controller
 {
     /**
      * Display a listing of the resource.
