@@ -14,7 +14,7 @@ class CategoryiesSeeder extends Seeder
     public function run(): void
     {
         Categories::create([
-			'name'=> 'Fast food',
+			'name'=> 'FastFood',
         ]);
 	    Categories::create([
 		    'name'=> 'Drinks',
