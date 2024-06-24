@@ -11,11 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('categoryies', function (Blueprint $table) {
+        Schema::create('categories', function (Blueprint $table) {
             $table->id();
 			$table->string('name');
-			$table->unsignedBigInteger('fast_food_id')->nullable();
-			$table->foreign('fast_food_id')->references('id')->on('fast_foods');
             $table->timestamps();
         });
     }

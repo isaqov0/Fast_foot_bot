@@ -14,7 +14,12 @@ return new class extends Migration
         Schema::create('fast_foods', function (Blueprint $table) {
             $table->id();
 			$table->string('name');
+			$table->string('description')->nullable();
 			$table->integer('price');
+			$table->integer('number');
+			$table->integer('discount')->default(0);
+	        $table->unsignedBigInteger('category_id');
+			$table->foreign('category_id')->references('id')->on('categories');
 			$table->string('image')->nullable();
             $table->timestamps();
         });

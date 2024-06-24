@@ -1,6 +1,6 @@
 @extends('index')
 @section('content')
-    <section class="food_section layout_padding-bottom">
+    <section class="food_section layout_padding-bottom" style="margin-top: 90px">
         <div class="container">
             <div class="heading_container heading_center">
                 <h2>

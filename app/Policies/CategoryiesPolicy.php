@@ -2,7 +2,7 @@
 
 namespace App\Policies;
 
-use App\Models\Categoryies;
+use App\Models\Categories;
 use App\Models\User;
 use Illuminate\Auth\Access\Response;
 
@@ -19,7 +19,7 @@ class CategoryiesPolicy
     /**
      * Determine whether the user can view the model.
      */
-    public function view(User $user, Categoryies $categoryies): bool
+    public function view(User $user, Categories $categoryies): bool
     {
         //
     }
@@ -35,7 +35,7 @@ class CategoryiesPolicy
     /**
      * Determine whether the user can update the model.
      */
-    public function update(User $user, Categoryies $categoryies): bool
+    public function update(User $user, Categories $categoryies): bool
     {
         //
     }
@@ -43,7 +43,7 @@ class CategoryiesPolicy
     /**
      * Determine whether the user can delete the model.
      */
-    public function delete(User $user, Categoryies $categoryies): bool
+    public function delete(User $user, Categories $categoryies): bool
     {
         //
     }
@@ -51,7 +51,7 @@ class CategoryiesPolicy
     /**
      * Determine whether the user can restore the model.
      */
-    public function restore(User $user, Categoryies $categoryies): bool
+    public function restore(User $user, Categories $categoryies): bool
     {
         //
     }
@@ -59,7 +59,7 @@ class CategoryiesPolicy
     /**
      * Determine whether the user can permanently delete the model.
      */
-    public function forceDelete(User $user, Categoryies $categoryies): bool
+    public function forceDelete(User $user, Categories $categoryies): bool
     {
         //
     }

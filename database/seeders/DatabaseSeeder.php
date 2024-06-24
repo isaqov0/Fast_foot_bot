@@ -14,7 +14,8 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         $this->call([
-			Fast_food::class
+			CategoryiesSeeder::class,
+			FastFoodSeeder::class
         ]);
     }
 }

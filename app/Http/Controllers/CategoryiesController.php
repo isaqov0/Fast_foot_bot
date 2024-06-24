@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\StoreCategoryiesRequest;
 use App\Http\Requests\UpdateCategoryiesRequest;
-use App\Models\Categoryies;
+use App\Models\Categories;
 
 class CategoryiesController extends Controller
 {
@@ -35,7 +35,7 @@ class CategoryiesController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Categoryies $categoryies)
+    public function show(Categories $categoryies)
     {
         //
     }
@@ -43,7 +43,7 @@ class CategoryiesController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Categoryies $categoryies)
+    public function edit(Categories $categoryies)
     {
         //
     }
@@ -51,7 +51,7 @@ class CategoryiesController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(UpdateCategoryiesRequest $request, Categoryies $categoryies)
+    public function update(UpdateCategoryiesRequest $request, Categories $categoryies)
     {
         //
     }
@@ -59,7 +59,7 @@ class CategoryiesController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Categoryies $categoryies)
+    public function destroy(Categories $categoryies)
     {
         //
     }

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\StoreFast_foodRequest;
 use App\Http\Requests\UpdateFast_foodRequest;
+use App\Models\Categories;
 use App\Models\Fast_food;
 
 class FastFoodController extends Controller
@@ -14,7 +15,8 @@ class FastFoodController extends Controller
     public function index()
     {
 		$foods = Fast_food::all();
-        return view('index' , compact('foods'));
+		$categories = Categories::all();
+        return view('index' , compact('foods', 'categories'));
     }
 
     /**
