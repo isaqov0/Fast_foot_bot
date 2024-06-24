@@ -16,3 +16,7 @@
 */
 
 Route::get('/', [FastFoodController::class , 'index']);
+
+Route::get('menu',function(){
+	return view('menu');
+});
