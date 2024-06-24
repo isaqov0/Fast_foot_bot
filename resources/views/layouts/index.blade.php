@@ -41,8 +41,8 @@
 <div class="hero_area">
     <div class="bg-dark" style="position: absolute; top: 0; left: 0; width: 100%; height: 100px;">
         {{--        <img src="{{asset('asset/images/hero-bg.jpg')}}" alt="">--}}
-    <!-- header section strats -->
     </div>
+    <!-- header section strats -->
     <header class="header_section">
         <div class="container">
             <nav class="navbar navbar-expand-lg custom_nav-container ">
