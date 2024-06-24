@@ -44,7 +44,7 @@
     </div>
     <!-- header section strats -->
     <header class="header_section">
-        <div class="container">
+        <div class="container" style="background-color: #343a40;">
             <nav class="navbar navbar-expand-lg custom_nav-container ">
                 <a class="navbar-brand" href="/">
             <span>
@@ -58,7 +58,7 @@
                     <span class=""> </span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" style="margin-bottom: 20px" id="navbarSupportedContent">
                     <ul class="navbar-nav  mx-auto ">
                         <li class="nav-item active">
                             <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
